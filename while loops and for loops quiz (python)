@@ -1,0 +1,15 @@
+for i in range(5, 85, 5):
+    print(i)
+
+print(" ")
+
+j = 5
+while j < 86:
+    print (j)
+    j += 5
+    
+answer = ' '
+while answer != 'BOOP':
+    answer = input("FORGLE")
+    
+    
