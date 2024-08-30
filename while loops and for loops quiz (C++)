@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	for (int i = 5; i < 86; i += 5)
+		cout << i << " ";
+
+	cout << " " << endl;
+
+	int j = 5;
+	while (j < 86) {
+		cout << j << " ";
+		j+=5;
+	}
+
+	string answer = "hi";
+	cin >> answer;
+	while (answer != "BOOP") {
+		cout << "FORGLE" << endl;
+	}
+
+
+}
